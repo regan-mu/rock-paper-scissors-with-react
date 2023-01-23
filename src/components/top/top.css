@@ -1,0 +1,36 @@
+.game__top {
+    width: 50%;
+    height: 96px;
+    border: 2px solid var(--header-outline);
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game__top img {
+    height: 100%;
+}
+.game__score {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game__score p {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--score-text);
+}
+.game__score h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-text);
+    letter-spacing: 2px;
+}
