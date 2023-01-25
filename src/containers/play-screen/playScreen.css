@@ -1,0 +1,13 @@
+.game__playscreen {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.playscreen-bg {
+    width: 220px;
+    height: 220px;
+    scale: 1.2;
+}
