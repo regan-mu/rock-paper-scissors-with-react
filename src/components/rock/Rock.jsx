@@ -1,4 +1,4 @@
-import "./rock.css";
+import "../optionStyles.css";
 import rock from "../../assets/icon-rock.svg";
 
 function Rock() {

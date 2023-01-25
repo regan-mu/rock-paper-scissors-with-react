@@ -1,4 +1,4 @@
-import "./scissors.css";
+import "../optionStyles.css";
 import scissors from "../../assets/icon-scissors.svg";
 
 function Scissors() {

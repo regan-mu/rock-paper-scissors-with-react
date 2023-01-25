@@ -1,0 +1,39 @@
+.game__results {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.results__choice {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.results__choice h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.results__choice > .game__option {
+    position: relative;
+}
+.results__choice >  .paper {
+    top: 0;
+    right: 0;
+}
+.results__choice >  .scissors {
+    bottom: 0;
+    left: 0;
+}
+.results__choice >  .rock {
+    top: 0;
+    left: 0;
+}

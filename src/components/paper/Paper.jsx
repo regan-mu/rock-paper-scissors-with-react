@@ -1,4 +1,4 @@
-import "./paper.css";
+import "../optionStyles.css";
 import paper from "../../assets/icon-paper.svg";
 
 function Paper() {

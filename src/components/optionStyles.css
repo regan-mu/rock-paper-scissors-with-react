@@ -12,8 +12,19 @@
 }
 .paper {
     top: 0;
-    left: 100px;
+    right: 100px;
     border: 15px solid var(--paper-gradient);
+}
+.scissors {
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 15px solid var(--scissors-gradient);
+}
+.rock {
+    top: 0;
+    left: 100px;
+    border: 15px solid var(--rock-gradient);
 }
 .game__option:hover {
     scale: 1.05
