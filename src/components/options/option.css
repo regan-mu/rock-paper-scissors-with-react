@@ -1,0 +1,31 @@
+.game__option {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.paper {
+    top: 0;
+    right: 100px;
+    border: 15px solid var(--paper-gradient);
+}
+.scissors {
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 15px solid var(--scissors-gradient);
+}
+.rock {
+    top: 0;
+    left: 100px;
+    border: 15px solid var(--rock-gradient);
+}
+.game__option:hover {
+    scale: 1.05
+}

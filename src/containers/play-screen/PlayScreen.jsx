@@ -1,14 +1,14 @@
 import "./playScreen.css";
 import bg from "../../assets/bg-triangle.svg";
-import { Paper, Rock, Scissors } from "../../components";
+import { Option } from "../../components";
 
-function PlayScreen(){
+function PlayScreen({playGame}){
     return (
         <div className="game__playscreen">
             <img className="playscreen-bg" src={bg} alt="" />
-            <Paper />
-            <Rock />
-            <Scissors />
+            <Option playGame={playGame} option="paper" />
+            <Option playGame={playGame} option="rock"/>
+            <Option playGame={playGame} option="scissors"/>
         </div>
     )
 }
