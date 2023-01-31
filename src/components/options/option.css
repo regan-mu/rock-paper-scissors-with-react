@@ -37,11 +37,11 @@
         border-width: 10px;
     }
     .paper {
-        top: 64px;
+        top: 96px;
         right: 6px;
     }
     .rock {
-        top: 64px;
+        top: 96px;
         left: 6px;
     }
     .scissors {
