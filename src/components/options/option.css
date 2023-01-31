@@ -37,15 +37,15 @@
         border-width: 10px;
     }
     .paper {
-        top: 96px;
+        top: 116px;
         right: 6px;
     }
     .rock {
-        top: 96px;
+        top: 116px;
         left: 6px;
     }
     .scissors {
-        bottom: 132px;
+        bottom: 164px;
         left: 50%;
         transform: translateX(-50%);
     }
