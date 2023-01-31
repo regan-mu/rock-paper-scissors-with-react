@@ -38,11 +38,11 @@
     }
     .paper {
         top: 64px;
-        right: 64px;
+        right: 6px;
     }
     .rock {
         top: 64px;
-        left: 64px;
+        left: 6px;
     }
     .scissors {
         bottom: 132px;

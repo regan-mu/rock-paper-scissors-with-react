@@ -13,7 +13,6 @@ function App() {
     player: "",
     house: ""
   });
-  const width = window.innerWidth;
   function closeRules(){
     setDisplayRules(false);
   }
@@ -84,7 +83,6 @@ function App() {
   return (
     <div className="game__main">
       <Top scores={scores} />
-      <h1>{width}</h1>
       {played ? <Results winner={winner} restartGame={restartGame} choices = {choices} /> : <PlayScreen playGame={playGame} />}
       {displayRules ? <Rules closeRules={closeRules} /> : null}
       <button onClick={() => {setDisplayRules(true)}} className="game__rules-btn">Rules</button>
