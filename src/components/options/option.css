@@ -38,14 +38,14 @@
     }
     .paper {
         top: 64px;
-        right: 8px;
+        right: 64px;
     }
     .rock {
         top: 64px;
-        left: 8px;
+        left: 64px;
     }
     .scissors {
-        bottom: 116px;
+        bottom: 132px;
         left: 50%;
         transform: translateX(-50%);
     }
