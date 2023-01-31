@@ -3,7 +3,7 @@
 ### Links
 
 - Github: [Code](https://github.com/regan-mu/rock-paper-scissors-with-react)
-- Live Demo: [Demo](https://your-live-site-url.com)
+- Live Demo: [Demo](https://regan-mu.github.io/rock-paper-scissors-with-react/)
 
 ### Screenshot
 
