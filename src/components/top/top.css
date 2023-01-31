@@ -33,3 +33,9 @@
     color: var(--dark-text);
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 480px) {
+    .game__top {
+        width: 100%;
+    }
+}

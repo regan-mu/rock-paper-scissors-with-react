@@ -29,3 +29,25 @@
 .game__option:hover {
     scale: 1.05
 }
+
+@media screen and (max-width: 480px) {
+    .game__option {
+        width: 120px;
+        height: 120px;
+        border-width: 10px;
+    }
+    .paper {
+        top: 64px;
+        right: 8px;
+    }
+    .rock {
+        top: 64px;
+        left: 8px;
+    }
+    .scissors {
+        bottom: 116px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}

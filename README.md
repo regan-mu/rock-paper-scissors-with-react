@@ -2,8 +2,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github: [Code](https://github.com/regan-mu/rock-paper-scissors-with-react)
+- Live Demo: [Demo](https://your-live-site-url.com)
 
 ### Screenshot
 

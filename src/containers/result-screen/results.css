@@ -68,3 +68,26 @@
 .restart__btn:hover {
     color: rgb(128, 0, 0);
 }
+@media screen and (max-width: 480px) {
+    .game__results {
+        width: 100%;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .results__choice {
+        height: max-content;
+        flex-direction: column-reverse;
+    }
+    .results__choice h4 {
+        font-size: 0.8rem;
+    }
+    .result__display {
+        position: absolute;
+        width: 200px;
+        height: max-content;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.6rem;
+    }
+}

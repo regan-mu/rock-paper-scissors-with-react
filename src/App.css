@@ -42,3 +42,12 @@
     border-radius: 4px;
     cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+    .game__main {
+        gap: 48px
+    }
+    .game__rules-btn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

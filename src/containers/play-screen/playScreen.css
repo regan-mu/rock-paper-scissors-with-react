@@ -11,3 +11,12 @@
     height: 220px;
     scale: 1.2;
 }
+@media screen and (max-width: 480px) {
+    .game__playscreen {
+        width: 100%;
+    }
+    .playscreen-bg {
+        width: 180px;
+        height: 180px;
+    }
+}
